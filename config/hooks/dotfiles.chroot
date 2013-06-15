@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd /home/skeeto
+git clone https://github.com/skeeto/dotfiles.git .dotfiles
+cd .dotfiles
+./install -p
