@@ -1,0 +1,15 @@
+#!/bin/sh
+
+lb config noauto \
+    --clean \
+    --ignore-system-defaults \
+    --architectures i386 \
+    --mode debian \
+    --distribution jessie \
+    --archive-areas "main contrib" \
+    --bootappend-live "boot=live config username=skeeto" \
+    --mirror-bootstrap        http://localhost:3142/debian/ \
+    --mirror-chroot-security  http://localhost:3142/debian-security/ \
+    --mirror-chroot-backports http://localhost:3142/debian-backports/ \
+    --mirror-binary           http://http.debian.net/debian/ \
+    "${@}"
