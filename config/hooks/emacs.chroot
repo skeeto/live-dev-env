@@ -1,5 +1,0 @@
-#!/bin/sh
-
-cd /home/skeeto
-git clone https://github.com/skeeto/.emacs.d .emacs.d
-# TODO exercise ELPA installs

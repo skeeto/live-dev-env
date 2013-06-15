@@ -7,3 +7,8 @@ config/chroot
 config/common
 config/source
 .lock
+
+# Build output
+binary/
+binary.*
+chroot.*
