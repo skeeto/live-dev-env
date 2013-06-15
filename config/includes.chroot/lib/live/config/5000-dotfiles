@@ -1,0 +1,12 @@
+#!/bin/sh
+
+export CONF=/etc/skeeto
+cd /home/skeeto
+
+sudo -u skeeto -H git clone $CONF/emacs.d.git .emacs.d
+# TODO: copy ELPA stuff in place?
+
+sudo -u skeeto -H git clone $CONF/dotfiles .dotfiles
+cd .dotfiles
+sudo -u skeeto -H ./install.sh -p
+# TODO: install wallpapers

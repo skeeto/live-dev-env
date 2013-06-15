@@ -1,6 +1,11 @@
 #!/bin/sh
 
-cd /home/skeeto
-git clone https://github.com/skeeto/dotfiles.git .dotfiles
-cd .dotfiles
-./install -p
+export CONF=/etc/skeeto
+mkdir -p $CONF
+cd $CONF
+
+git clone --bare https://github.com/skeeto/dotfiles.git dotfiles.git
+# TODO: fetch wallpapers
+
+git clone --bare https://github.com/skeeto/.emacs.d emacs.d.git
+# TODO: fetch ELPA installs?
