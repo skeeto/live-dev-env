@@ -9,6 +9,11 @@ lb config noauto \
     --archive-areas "main contrib non-free" \
     --bootappend-live "boot=live config username=skeeto" \
     --debian-installer false \
+    --iso-application "Skeeto Live" \
+    --iso-publisher "skeeto" \
+    --iso-volume "skeeto-"$(date +%Y%m%d) \
+    --checksums false \
+    --interactive /bin/bash \
     --mirror-bootstrap        http://localhost:3142/debian/ \
     --mirror-chroot-security  http://localhost:3142/debian-security/ \
     --mirror-chroot-backports http://localhost:3142/debian-backports/ \
