@@ -20,4 +20,5 @@ these command from the repository.
     lb config
     sudo lb build
 
-Root permissions are needed due to live-build's chrooting.
+Root permissions are needed due to live-build's chrooting. The build
+output will be called `binary.hybrid.iso`.
