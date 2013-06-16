@@ -1,21 +1,27 @@
 # Live system demo of my personal configuration
 
-This live system has my preferred packages, includes all of my
-personal dotfiles, and is configured to boot into exactly my preferred
-development environment.
+## Download
+
+ * [live-skeeto-20130615.iso](http://nullprogram.s3.amazonaws.com/iso/live-skeeto-20130615.iso)
+   ([asc](http://nullprogram.s3.amazonaws.com/iso/live-skeeto-20130615.iso.asc))
+
+## Description
+
+This live system has my favorite packages and configuration, including
+all of my personal dotfiles, and is configured to boot into exactly my
+preferred development environment.
 
  * https://github.com/skeeto/dotfiles
  * https://github.com/skeeto/.emacs.d
 
-It's built using Debian's
-[live-build system](http://live.debian.net/). The configuration
-assumes you have a local mirror hosted on port 3142 (i.e.
-apt-cacher-ng).
+See the README files in each for all of the keybindings and features.
 
 ## Building the system
 
-On Debian, or any Debian derivative, install *live-build* and run
-these command from the repository.
+It's built using Debian's [live-build](http://live.debian.net/). The
+configuration assumes you have a local mirror hosted on port 3142
+(i.e. apt-cacher-ng). On Debian, or any Debian derivative, install
+*live-build* and run these command from the repository.
 
     lb config
     sudo lb build

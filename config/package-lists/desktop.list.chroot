@@ -18,6 +18,10 @@ keychain
 command-not-found
 curl
 
-iceweasel
-chromium
 pidgin
+chromium
+iceweasel
+xul-ext-pentadactyl
+xul-ext-adblock-plus
+xul-ext-greasemonkey
+xul-ext-firegestures
