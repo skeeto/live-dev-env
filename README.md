@@ -15,6 +15,8 @@ preferred development environment.
  * https://github.com/skeeto/.emacs.d
 
 See the README files in each for all of the keybindings and features.
+One of the core features is that the window manager can be completely
+and conveniently driven without a mouse.
 
 ## Building the system
 
