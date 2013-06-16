@@ -4,7 +4,9 @@ export CONF=/etc/skeeto
 cd /home/skeeto
 
 sudo -u skeeto -H git clone $CONF/emacs.d.git .emacs.d
-# TODO: copy ELPA stuff in place?
+cd .emacs.d
+tar -xf $CONF/elpa.tar.gz
+cd ..
 
 sudo -u skeeto -H git clone $CONF/dotfiles .dotfiles
 cd .dotfiles

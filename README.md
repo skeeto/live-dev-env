@@ -5,9 +5,6 @@
  * [live-skeeto-20130615.iso](http://nullprogram.s3.amazonaws.com/iso/live-skeeto-20130615.iso)
    ([asc](http://nullprogram.s3.amazonaws.com/iso/live-skeeto-20130615.iso.asc))
 
-Currently an Internet connection is required to start Emacs (ELPA
-packages). This will eventually be resolved.
-
 ## Description
 
 This live system has my favorite packages and configuration, including
