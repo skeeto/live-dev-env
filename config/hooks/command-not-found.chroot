@@ -1,0 +1,3 @@
+#!/bin/sh
+
+update-command-not-found
