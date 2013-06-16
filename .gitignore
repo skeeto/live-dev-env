@@ -12,3 +12,5 @@ config/source
 binary/
 binary.*
 chroot.*
+*.iso
+*.iso.asc
