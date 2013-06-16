@@ -17,6 +17,7 @@ wicd-curses
 keychain
 command-not-found
 curl
+xcowsay
 
 pidgin
 chromium
