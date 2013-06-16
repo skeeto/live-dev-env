@@ -9,4 +9,5 @@ sudo -u skeeto -H git clone $CONF/emacs.d.git .emacs.d
 sudo -u skeeto -H git clone $CONF/dotfiles .dotfiles
 cd .dotfiles
 sudo -u skeeto -H ./install.sh -p
-# TODO: install wallpapers
+cd ..
+sudo -u skeeto -H cp -r $CONF/misc .wallpaper/

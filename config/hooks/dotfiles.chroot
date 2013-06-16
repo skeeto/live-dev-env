@@ -5,7 +5,7 @@ mkdir -p $CONF
 cd $CONF
 
 git clone --bare https://github.com/skeeto/dotfiles.git dotfiles.git
-# TODO: fetch wallpapers
+curl http://skeeto.s3.amazonaws.com/wallpapers/misc.tar | tar -xv
 
 git clone --bare https://github.com/skeeto/.emacs.d emacs.d.git
 # TODO: fetch ELPA installs?
