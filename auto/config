@@ -1,5 +1,8 @@
 #!/bin/sh
 
+export MIRROR_BOOTSTRAP=localhost:3142
+export MIRROR_BINARY=http.debian.net
+
 lb config noauto \
     --clean \
     --ignore-system-defaults \
@@ -13,8 +16,8 @@ lb config noauto \
     --iso-application "Skeeto Live" \
     --iso-publisher "skeeto" \
     --iso-volume "skeeto-"$(date +%Y%m%d) \
-    --mirror-bootstrap        http://localhost:3142/debian/ \
-    --mirror-chroot-security  http://localhost:3142/debian-security/ \
-    --mirror-chroot-backports http://localhost:3142/debian-backports/ \
-    --mirror-binary           http://http.debian.net/debian/ \
+    --mirror-bootstrap        http://$MIRROR_BOOTSTRAP/debian/ \
+    --mirror-chroot-security  http://$MIRROR_BOOTSTRAP/debian-security/ \
+    --mirror-chroot-backports http://$MIRROR_BOOTSTRAP/debian-backports/ \
+    --mirror-binary           http://$MIRROR_BINARY/debian/ \
     "${@}"
