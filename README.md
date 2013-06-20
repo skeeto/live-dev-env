@@ -30,3 +30,7 @@ configuration assumes you have a local mirror hosted on port 3142
 
 Root permissions are needed due to live-build's chrooting. The build
 output will be called `binary.hybrid.iso`.
+
+## Motivation
+
+ * [Personal OS Configuration Live System](http://nullprogram.com/blog/2013/06/17/)
