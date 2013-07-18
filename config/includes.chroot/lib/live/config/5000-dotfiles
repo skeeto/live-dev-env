@@ -1,15 +1,21 @@
 #!/bin/sh
 
 export CONF=/etc/skeeto
-cd /home/skeeto
 
-sudo -u skeeto -H git clone $CONF/emacs.d.git .emacs.d
+sudo -u skeeto -H /bin/sh <<EOF
+cd
+
+git clone $CONF/emacs.d.git .emacs.d
 cd .emacs.d
 tar -xf $CONF/elpa.tar.gz
+git remote set-url origin https://github.com/skeeto/.emacs.d.git
 cd ..
 
-sudo -u skeeto -H git clone $CONF/dotfiles .dotfiles
+git clone $CONF/dotfiles .dotfiles
 cd .dotfiles
-sudo -u skeeto -H ./install.sh -p
+./install.sh -p
+git remote set-url origin https://github.com/skeeto/dotfiles.git
 cd ..
-sudo -u skeeto -H cp -r $CONF/misc .wallpaper/
+cp -r $CONF/misc .wallpaper/
+
+EOF
