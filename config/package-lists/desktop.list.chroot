@@ -6,6 +6,7 @@ lxterminal
 dmenu
 feh
 i3lock
+bash-completion
 
 pmount
 thunar
