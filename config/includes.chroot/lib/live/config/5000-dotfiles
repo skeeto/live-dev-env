@@ -5,6 +5,12 @@ export CONF=/etc/skeeto
 sudo -u skeeto -H /bin/sh <<EOF
 cd
 
+if [ -e .live-installed ]; then
+    exit 0;
+else
+    touch .live-installed
+fi
+
 git clone $CONF/emacs.d.git .emacs.d
 cd .emacs.d
 tar -xf $CONF/elpa.tar.gz
