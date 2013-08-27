@@ -17,7 +17,6 @@ lb config noauto \
     --iso-publisher "skeeto" \
     --iso-volume "skeeto-"$(date +%Y%m%d) \
     --mirror-bootstrap        http://$MIRROR_BOOTSTRAP/debian/ \
-    --mirror-chroot-security  http://$MIRROR_BOOTSTRAP/debian-security/ \
-    --mirror-chroot-backports http://$MIRROR_BOOTSTRAP/debian-backports/ \
+    --mirror-chroot-security  http://$MIRROR_BOOTSTRAP/security.debian.org/ \
     --mirror-binary           http://$MIRROR_BINARY/debian/ \
     "${@}"
