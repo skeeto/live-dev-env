@@ -3,6 +3,8 @@
 export MIRROR_BOOTSTRAP=localhost:3142
 export MIRROR_BINARY=http.debian.net
 
+export KPARAMS="hostname=skeeto username=skeeto noeject"
+
 lb config noauto \
     --clean \
     --ignore-system-defaults \
@@ -10,7 +12,7 @@ lb config noauto \
     --mode debian \
     --distribution sid \
     --archive-areas "main contrib non-free" \
-    --bootappend-live "boot=live config hostname=skeeto username=skeeto" \
+    --bootappend-live "boot=live config $KPARAMS" \
     --debian-installer false \
     --debian-installer-gui false \
     --iso-application "Skeeto Live" \
