@@ -1,6 +1,6 @@
 lightdm
 openbox
-xcompmgr
+compton
 
 lxterminal
 dmenu
@@ -11,7 +11,6 @@ bash-completion
 pciutils
 
 pmount
-thunar
 cryptsetup
 
 wicd
@@ -24,7 +23,6 @@ curl
 xcowsay
 qiv
 
-chromium
 iceweasel
 xul-ext-pentadactyl
 xul-ext-adblock-plus

@@ -8,9 +8,9 @@ export KPARAMS="hostname=skeeto username=skeeto noeject"
 lb config noauto \
     --clean \
     --ignore-system-defaults \
-    --architectures i386 \
+    --architectures amd64 \
     --mode debian \
-    --distribution sid \
+    --distribution jessie \
     --archive-areas "main contrib non-free" \
     --bootappend-live "boot=live config $KPARAMS" \
     --debian-installer false \

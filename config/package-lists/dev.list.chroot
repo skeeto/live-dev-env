@@ -1,8 +1,6 @@
 emacs24
 emacs24-common-non-dfsg
 indent
-quilt
 gnupg
 git
-mutt
 s3cmd
