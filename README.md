@@ -1,17 +1,5 @@
 # Live system of my personal config
 
-## Download
-
- * [live-skeeto-20140328.iso](http://nullprogram.s3.amazonaws.com/iso/live-skeeto-20140328.iso)
-   ([asc](http://nullprogram.s3.amazonaws.com/iso/live-skeeto-20140328.iso.asc))
-
-### Previous versions
-
- * [live-skeeto-20140214.iso](http://nullprogram.s3.amazonaws.com/iso/live-skeeto-20140214.iso)
-   ([asc](http://nullprogram.s3.amazonaws.com/iso/live-skeeto-20140214.iso.asc))
- * [live-skeeto-20140124.iso](http://nullprogram.s3.amazonaws.com/iso/live-skeeto-20140124.iso)
-   ([asc](http://nullprogram.s3.amazonaws.com/iso/live-skeeto-20140124.iso.asc))
-
 ## Description
 
 This live system has my favorite packages and configuration, including
