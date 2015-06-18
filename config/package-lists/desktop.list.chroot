@@ -22,6 +22,7 @@ command-not-found
 curl
 xcowsay
 qiv
+alsa-utils
 
 iceweasel
 xul-ext-pentadactyl
