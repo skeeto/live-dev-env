@@ -3,7 +3,7 @@ openbox
 compton
 
 lxterminal
-dmenu
+suckless-tools
 feh
 i3lock
 
@@ -31,3 +31,5 @@ xul-ext-firegestures
 
 openconnect
 vpnc
+
+sshfs

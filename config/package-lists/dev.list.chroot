@@ -4,3 +4,6 @@ indent
 gnupg
 git
 s3cmd
+nasm
+global
+build-essential
