@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# This exists to workaround live-boot bug #700902.
-# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=700902
-
-set -e
-
-sed -i 's,loadkeys /etc,loadkeys -q /etc,' /lib/live/boot/9990-misc-helpers.sh
