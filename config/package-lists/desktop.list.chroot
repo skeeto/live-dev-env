@@ -33,3 +33,5 @@ openconnect
 vpnc
 
 sshfs
+ntfs-3g
+initramfs-tools
