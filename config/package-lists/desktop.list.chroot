@@ -21,8 +21,10 @@ keychain
 command-not-found
 curl
 xcowsay
+
 qiv
 alsa-utils
+mpv
 
 iceweasel
 xul-ext-adblock-plus
