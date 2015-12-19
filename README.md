@@ -1,9 +1,5 @@
 # Live system of my personal config
 
-## Download
-
-* [live-skeeto-20150502.iso](http://nullprogram.s3.amazonaws.com/iso/live-skeeto-20150502.iso) (amd64, [sig](http://nullprogram.s3.amazonaws.com/iso/live-skeeto-20150502.iso.sig))
-
 ## Description
 
 This live system has my favorite packages and configuration, including
