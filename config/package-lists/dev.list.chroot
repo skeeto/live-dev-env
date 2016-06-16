@@ -3,6 +3,7 @@ emacs24-common-non-dfsg
 indent
 gnupg
 git
+quilt
 s3cmd
 nasm
 global
