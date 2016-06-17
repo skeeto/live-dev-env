@@ -18,6 +18,7 @@ lb config noauto \
     --iso-application "Skeeto Live" \
     --iso-publisher "skeeto" \
     --iso-volume "skeeto-"$(date +%Y%m%d) \
+    --security true \
     --mirror-bootstrap        http://$MIRROR_BOOTSTRAP/debian/ \
     --mirror-chroot           http://$MIRROR_BOOTSTRAP/debian/ \
     --mirror-chroot-security  http://$MIRROR_BOOTSTRAP/security.debian.org/ \
