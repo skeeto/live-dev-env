@@ -41,3 +41,5 @@ initramfs-tools
 
 wget
 curl
+
+x11-xserver-utils
