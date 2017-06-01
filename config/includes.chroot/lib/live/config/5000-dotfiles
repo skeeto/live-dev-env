@@ -11,12 +11,6 @@ else
     touch .live-installed
 fi
 
-git clone $CONF/emacs.d.git .emacs.d
-cd .emacs.d
-tar -xf $CONF/elpa.tar.gz
-git remote set-url origin https://github.com/skeeto/.emacs.d.git
-cd ..
-
 git clone $CONF/dotfiles .dotfiles
 cd .dotfiles
 ./install.sh -p
