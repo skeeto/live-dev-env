@@ -13,7 +13,7 @@ fi
 
 git clone $CONF/dotfiles .dotfiles
 cd .dotfiles
-./install.sh -p
+./install.sh
 git remote set-url origin https://github.com/skeeto/dotfiles.git
 cd ..
 cp -r $CONF/misc .wallpaper/
