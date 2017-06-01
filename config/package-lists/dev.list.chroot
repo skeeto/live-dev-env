@@ -1,10 +1,9 @@
-emacs24
-emacs24-common-non-dfsg
-indent
-gnupg
 git
 quilt
 s3cmd
 nasm
-global
 build-essential
+vim
+vim-gtk
+python3
+tmux

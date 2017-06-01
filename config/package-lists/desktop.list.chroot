@@ -2,7 +2,8 @@ lightdm
 openbox
 compton
 
-lxterminal
+xterm
+rxvt-unicode-256color
 suckless-tools
 feh
 i3lock
@@ -28,9 +29,6 @@ mpv
 mupdf
 
 firefox-esr
-xul-ext-adblock-plus
-xul-ext-greasemonkey
-xul-ext-firegestures
 
 openconnect
 vpnc
@@ -43,3 +41,6 @@ wget
 curl
 
 x11-xserver-utils
+
+fonts-noto
+fonts-noto-mono
