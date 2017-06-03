@@ -1,6 +1,5 @@
 lightdm
 openbox
-compton
 
 xterm
 rxvt-unicode-256color
@@ -25,6 +24,7 @@ xcowsay
 
 qiv
 alsa-utils
+pavucontrol
 mpv
 mupdf
 
