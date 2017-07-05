@@ -32,6 +32,8 @@ firefox-esr
 
 openconnect
 vpnc
+nmap
+netcat-openbsd
 
 sshfs
 ntfs-3g
