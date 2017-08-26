@@ -8,3 +8,5 @@ vim
 vim-gtk
 python3
 tmux
+exuberant-ctags
+cscope
