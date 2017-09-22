@@ -10,3 +10,6 @@ python3
 tmux
 exuberant-ctags
 cscope
+gdb
+valgrind
+strace
