@@ -2,7 +2,7 @@
 
 export CONF=/etc/skeeto
 
-sudo -u skeeto -H /bin/sh <<EOF
+sudo -u wellons -H /bin/sh <<EOF
 cd
 
 if [ -e .live-installed ]; then
