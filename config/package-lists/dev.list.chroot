@@ -1,7 +1,7 @@
 man
 git
 quilt
-s3cmd
+awscli
 nasm
 build-essential
 vim
