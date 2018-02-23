@@ -1,5 +1,6 @@
 lightdm
 openbox
+compton
 
 xterm
 rxvt-unicode-256color
