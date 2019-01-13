@@ -27,9 +27,13 @@ qiv
 alsa-utils
 pavucontrol
 mpv
+audacious
+gnome-icon-theme
 
 firefox-esr
 dillo
+chromium
+xclip
 
 openconnect
 vpnc

@@ -13,3 +13,4 @@ cscope
 gdb
 valgrind
 strace
+qemu-system
