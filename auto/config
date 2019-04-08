@@ -3,7 +3,7 @@
 export MIRROR_BOOTSTRAP=localhost:3142
 export MIRROR_BINARY=http.debian.net
 
-export KPARAMS="hostname=skeeto username=wellons noeject pti=off"
+export KPARAMS="hostname=skeeto username=wellons noeject nopti nospectre_v2 noibrs noibpb"
 
 lb config noauto \
     --clean \
