@@ -14,3 +14,4 @@ gdb
 valgrind
 strace
 qemu-system
+libglfw3-dev
