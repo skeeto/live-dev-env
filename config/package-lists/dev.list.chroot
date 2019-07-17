@@ -4,6 +4,7 @@ quilt
 awscli
 nasm
 build-essential
+golang
 vim
 vim-gtk
 python3
