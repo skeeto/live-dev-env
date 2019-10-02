@@ -48,6 +48,7 @@ wget
 curl
 
 x11-xserver-utils
+lxrandr
 
 fonts-noto
 fonts-noto-mono
