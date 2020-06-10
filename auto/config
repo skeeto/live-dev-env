@@ -3,7 +3,8 @@
 export MIRROR_BOOTSTRAP=localhost:3142
 export MIRROR_BINARY=http.debian.net
 
-export KPARAMS="hostname=skeeto username=wellons noeject nopti nospectre_v2 noibrs noibpb"
+export KPARAMS="hostname=skeeto username=wellons noeject"
+export KFAST="noibrs noibpb nopti nospectre_v2 nospectre_v1 l1tf=off nospec_store_bypass_disable no_stf_barrier mds=off tsx=on tsx_async_abort=off mitigations=off"
 
 lb config noauto \
     --clean \
@@ -12,7 +13,7 @@ lb config noauto \
     --mode debian \
     --distribution buster \
     --archive-areas "main contrib non-free" \
-    --bootappend-live "boot=live config $KPARAMS" \
+    --bootappend-live "boot=live config $KPARAMS $KFAST" \
     --debian-installer false \
     --debian-installer-gui false \
     --iso-application "Skeeto Live" \
