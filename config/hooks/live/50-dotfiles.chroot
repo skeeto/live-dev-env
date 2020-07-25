@@ -5,4 +5,4 @@ mkdir -p $CONF
 cd $CONF
 
 git clone --bare https://github.com/skeeto/dotfiles.git dotfiles.git
-curl http://skeeto.s3.amazonaws.com/wallpapers/misc.tar | tar -xv
+curl -L https://skeeto.s3.amazonaws.com/wallpapers/Kelsey-Wellons-Wallpaper-Collection-1.tar >wallpaper.tar
