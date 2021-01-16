@@ -3,7 +3,7 @@ openbox
 compton
 
 xterm
-rxvt-unicode-256color
+kitty
 suckless-tools
 feh
 i3lock
