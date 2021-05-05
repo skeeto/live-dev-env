@@ -1,6 +1,5 @@
 lightdm
 openbox
-compton
 
 xterm
 kitty
@@ -20,7 +19,6 @@ wicd-curses
 
 keychain
 command-not-found
-curl
 xcowsay
 
 qiv
@@ -31,13 +29,11 @@ audacious
 gnome-icon-theme
 
 firefox-esr
-dillo
 chromium
 xclip
 
 openconnect
 vpnc
-nmap
 netcat-openbsd
 
 sshfs
