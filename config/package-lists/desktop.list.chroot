@@ -13,9 +13,7 @@ pciutils
 pmount
 cryptsetup
 
-wicd
-wicd-gtk
-wicd-curses
+network-manager
 
 keychain
 command-not-found
@@ -26,7 +24,6 @@ alsa-utils
 pavucontrol
 mpv
 audacious
-gnome-icon-theme
 
 firefox-esr
 chromium

@@ -6,7 +6,7 @@ nasm
 build-essential
 golang
 vim
-vim-gtk
+vim-gtk3
 python3
 tmux
 exuberant-ctags
