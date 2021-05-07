@@ -1,9 +1,9 @@
 #!/bin/sh
 
-export MIRROR_BOOTSTRAP=localhost:3142
-export MIRROR_BINARY=http.debian.net
+MIRROR_BOOTSTRAP=localhost:3142
+MIRROR_BINARY=http.debian.net
 
-export KPARAMS="mitigations=off hostname=skeeto username=wellons noeject"
+KPARAMS="mitigations=off hostname=skeeto username=wellons noeject"
 
 lb config noauto \
     --clean \
