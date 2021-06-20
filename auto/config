@@ -13,7 +13,7 @@ lb config noauto \
     --distribution bullseye \
     --archive-areas "main contrib non-free" \
     --bootappend-live "boot=live config $KPARAMS" \
-    --debian-installer false \
+    --debian-installer none \
     --debian-installer-gui false \
     --iso-application "Skeeto Live" \
     --iso-publisher "skeeto" \
