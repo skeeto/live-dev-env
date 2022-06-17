@@ -36,6 +36,7 @@ netcat-openbsd
 sshfs
 ntfs-3g
 initramfs-tools
+lvm2
 
 wget
 curl
