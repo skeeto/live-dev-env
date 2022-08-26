@@ -10,9 +10,7 @@ vim-gtk3
 python3
 tmux
 exuberant-ctags
-cscope
 gdb
 valgrind
 strace
 qemu-system
-libglfw3-dev

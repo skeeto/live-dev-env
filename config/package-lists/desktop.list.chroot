@@ -2,7 +2,6 @@ lightdm
 openbox
 
 xterm
-kitty
 suckless-tools
 feh
 i3lock
@@ -30,7 +29,6 @@ chromium
 xclip
 
 openconnect
-vpnc
 netcat-openbsd
 
 sshfs
