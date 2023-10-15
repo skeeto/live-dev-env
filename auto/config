@@ -10,8 +10,8 @@ lb config noauto \
     --ignore-system-defaults \
     --architectures amd64 \
     --mode debian \
-    --distribution bullseye \
-    --archive-areas "main contrib non-free" \
+    --distribution bookworm \
+    --archive-areas "main contrib non-free non-free-firmware" \
     --bootappend-live "boot=live config $KPARAMS" \
     --debian-installer none \
     --debian-installer-gui false \
